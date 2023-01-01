@@ -7,7 +7,7 @@ import plotly.express as px
 
 import pandas as pd
 
-df = pd.read_csv('assets/data/gapminderDataFiveYear.csv')
+df = pd.read_csv('gapminderDataFiveYear.csv')
 
 dash_app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
 app = dash_app.server
